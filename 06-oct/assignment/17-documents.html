@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Elements</title>
+</head>
+<body>
+    <h1>Form Elements</h1>
+
+    <form action="#" method="post">
+        <label for="dateInput">Date:</label>
+        <input type="date" id="dateInput" name="dateInput"><br><br>
+
+        <label for="numberInput">Number:</label>
+        <input type="number" id="numberInput" name="numberInput" min="1" max="100" step="1"><br><br>
+
+        <label for="emailInput">Email:</label>
+        <input type="email" id="emailInput" name="emailInput"><br><br>
+
+        <label for="searchInput">Search:</label>
+        <input type="search" id="searchInput" name="searchInput"><br><br>
+
+        <label for="rangeInput">Range:</label>
+        <input type="range" id="rangeInput" name="rangeInput" min="0" max="100" step="1"><br><br>
+
+        <label for="datalistInput">Select a Fruit:</label>
+        <input type="text" id="datalistInput" name="datalistInput" list="fruits">
+        <datalist id="fruits">
+            <option value="Grape">
+            <option value="Mango">
+            <option value="Apple">
+            <option value="Cherry">
+            <option value="Date">
+        </datalist>
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
