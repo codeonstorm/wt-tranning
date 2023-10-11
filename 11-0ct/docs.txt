@@ -1,0 +1,9 @@
+VAST Ads
+
+
+The video player plugin implements IAB specifications of VAST 3, VAST 4 (rendered through VAST 3) and VPAID.
+The PRO version of the plugin supports HTML5 ads and VMAP specification, 
+which allows to play multiple ads at desired time position (mid-roll, post-roll). 
+Apart of linear video ads, VAST plugin PRO support also nonlinear ads, industry icons 
+and ad companions. Sequential ads as defined in the VAST 3 spec as ad pods are supported as well.
+The plugin includes option to build ads waterfall to maximize ad revenue by attempting to show a valid ad.

@@ -1,0 +1,11 @@
+.red{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+}
+
+.thick{
+    font-size: 40px;
+    text-align: left;
+    color: cyan;
+}
