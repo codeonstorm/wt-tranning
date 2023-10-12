@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Apply styles to elements with a specific ID */
+    #header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Apply styles to elements with a specific class */
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f7f7f7;
+    }
+
+    /* Style a specific class within an element with a specific ID */
+    #main .sidebar {
+      float: left;
+      width: 30%;
+      background-color: #ddd;
+      padding: 10px;
+    }
+
+    #main .main-content {
+      float: left;
+      width: 70%;
+      padding: 10px;
+    }
+
+    /* Style links within a specific class */
+    .content a {
+      color: #0078d4;
+      text-decoration: none;
+    }
+
+    .content a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1>My Web Page</h1>
+  </div>
+
+  <div id="main">
+    <div class="sidebar">
+      <h2>Sidebar</h2>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+      </ul>
+    </div>
+
+    <div class="main-content">
+      <h2>Main Content</h2>
+      <p>Welcome to my web page. This is the main content area.</p>
+    </div>
+  </div>
+
+  <div class="content">
+    <h2>Additional Content</h2>
+    <p>This is some additional content that's not part of the main layout.</p>
+  </div>
+</body>
+</html>
